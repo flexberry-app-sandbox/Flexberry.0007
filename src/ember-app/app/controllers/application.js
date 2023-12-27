@@ -32,6 +32,7 @@ export default Controller.extend({
               link: 'i-i-s-0007-должность-l',
               caption: i18n.t('forms.application.sitemap.курсовая.сотрудники.i-i-s-0007-должность-l.caption'),
               title: i18n.t('forms.application.sitemap.курсовая.сотрудники.i-i-s-0007-должность-l.title'),
+              icon: 'chart bar',
               children: null
             }, {
               link: 'i-i-s-0007-сотрудник-l',
@@ -48,19 +49,19 @@ export default Controller.extend({
               link: 'i-i-s-0007-сервер-l',
               caption: i18n.t('forms.application.sitemap.курсовая.сервера.i-i-s-0007-сервер-l.caption'),
               title: i18n.t('forms.application.sitemap.курсовая.сервера.i-i-s-0007-сервер-l.title'),
-              icon: 'building',
+              icon: 'phone',
               children: null
             }, {
               link: 'i-i-s-0007-отчет-о-сервере-l',
               caption: i18n.t('forms.application.sitemap.курсовая.сервера.i-i-s-0007-отчет-о-сервере-l.caption'),
               title: i18n.t('forms.application.sitemap.курсовая.сервера.i-i-s-0007-отчет-о-сервере-l.title'),
-              icon: 'address card',
+              icon: 'paperclip',
               children: null
             }, {
               link: 'i-i-s-0007-расположение-l',
               caption: i18n.t('forms.application.sitemap.курсовая.сервера.i-i-s-0007-расположение-l.caption'),
               title: i18n.t('forms.application.sitemap.курсовая.сервера.i-i-s-0007-расположение-l.title'),
-              icon: 'address card',
+              icon: 'chart line',
               children: null
             }]
           }]
