@@ -26,13 +26,13 @@ export default Controller.extend({
               link: 'i-i-s-0007-должность-l',
               caption: i18n.t('forms.application.sitemap.курсовая.сотрудники.i-i-s-0007-должность-l.caption'),
               title: i18n.t('forms.application.sitemap.курсовая.сотрудники.i-i-s-0007-должность-l.title'),
-              icon: 'briefcase',
+              icon: 'paperclip',
               children: null
             }, {
               link: 'i-i-s-0007-сотрудник-l',
               caption: i18n.t('forms.application.sitemap.курсовая.сотрудники.i-i-s-0007-сотрудник-l.caption'),
               title: i18n.t('forms.application.sitemap.курсовая.сотрудники.i-i-s-0007-сотрудник-l.title'),
-              icon: 'paperclip',
+              icon: 'tasks',
               children: null
             }]
           }, {
@@ -43,19 +43,19 @@ export default Controller.extend({
               link: 'i-i-s-0007-сервер-l',
               caption: i18n.t('forms.application.sitemap.курсовая.сервера.i-i-s-0007-сервер-l.caption'),
               title: i18n.t('forms.application.sitemap.курсовая.сервера.i-i-s-0007-сервер-l.title'),
-              icon: 'folder',
+              icon: 'book',
               children: null
             }, {
               link: 'i-i-s-0007-отчет-о-сервере-l',
               caption: i18n.t('forms.application.sitemap.курсовая.сервера.i-i-s-0007-отчет-о-сервере-l.caption'),
               title: i18n.t('forms.application.sitemap.курсовая.сервера.i-i-s-0007-отчет-о-сервере-l.title'),
-              icon: 'tasks',
+              icon: 'file',
               children: null
             }, {
               link: 'i-i-s-0007-расположение-l',
               caption: i18n.t('forms.application.sitemap.курсовая.сервера.i-i-s-0007-расположение-l.caption'),
               title: i18n.t('forms.application.sitemap.курсовая.сервера.i-i-s-0007-расположение-l.title'),
-              icon: 'list',
+              icon: 'chart bar',
               children: null
             }]
           }]
